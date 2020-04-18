@@ -1,0 +1,96 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://Scenes/Tile.tscn" type="PackedScene" id=1]
+[ext_resource path="res://Scripts/Tile.gd" type="Script" id=2]
+
+[node name="Tile Row 1" type="Node2D"]
+
+[node name="Tile" type="StaticBody2D" parent="." groups=[
+"Tiles",
+] instance=ExtResource( 1 )]
+position = Vector2( 184, 296 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Tile2" type="StaticBody2D" parent="." groups=[
+"Tiles",
+] instance=ExtResource( 1 )]
+position = Vector2( 256, 296 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Tile3" type="StaticBody2D" parent="." groups=[
+"Tiles",
+] instance=ExtResource( 1 )]
+position = Vector2( 328, 296 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Tile4" type="StaticBody2D" parent="." groups=[
+"Tiles",
+] instance=ExtResource( 1 )]
+position = Vector2( 400, 296 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Tile5" type="StaticBody2D" parent="." groups=[
+"Tiles",
+] instance=ExtResource( 1 )]
+position = Vector2( 472, 296 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Tile6" type="StaticBody2D" parent="." groups=[
+"Tiles",
+] instance=ExtResource( 1 )]
+position = Vector2( 544, 296 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Tile7" type="StaticBody2D" parent="." groups=[
+"Tiles",
+] instance=ExtResource( 1 )]
+position = Vector2( 616, 296 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Tile8" type="StaticBody2D" parent="." groups=[
+"Tiles",
+] instance=ExtResource( 1 )]
+position = Vector2( 688, 296 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Tile9" type="StaticBody2D" parent="." groups=[
+"Tiles",
+] instance=ExtResource( 1 )]
+position = Vector2( 760, 296 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Tile10" type="StaticBody2D" parent="." groups=[
+"Tiles",
+] instance=ExtResource( 1 )]
+position = Vector2( 832, 296 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
